@@ -17,8 +17,8 @@ class Config(object):
     if os.getenv('DATABASE_URL'):
         SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL')
     else:
-        # SQLALCHEMY_DATABASE_URI = f"sqlite:///{os.path.join(BASEDIR, 'instance', 'app.db')}"
-        SQLALCHEMY_DATABASE_URI = f'mysql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
+        SQLALCHEMY_DATABASE_URI = f"sqlite:///{os.path.join(BASEDIR, 'instance', 'app.db')}"
+        # SQLALCHEMY_DATABASE_URI = f'mysql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
    
@@ -35,7 +35,4 @@ class DevelopmentConfig(Config):
 class TestingConfig(object):
     TESTING = True
     SECRET_KEY = os.getenv('SECRET_KEY', default='BAD_SECRET_KEY')
-    # SQLALCHEMY_DATABASE_URI = os.getenv('TEST_DATABASE_URI',
-                                        # default=f"sqlite:///{os.path.join(BASEDIR, 'instance', 'test.db')}")
-
     SQLALCHEMY_DATABASE_URI = f"sqlite:///{os.path.join(BASEDIR, 'instance', 'test.db')}"
