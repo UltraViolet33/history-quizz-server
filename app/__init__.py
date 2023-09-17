@@ -4,10 +4,11 @@ from os import path
 from flask_login import LoginManager
 import os
 import sqlalchemy as sa
-
+from flask_migrate import Migrate
 
 db = SQLAlchemy()
 login_manager = LoginManager()
+migrate = Migrate()
 
 
 def create_app(config_type=None):
@@ -36,6 +37,7 @@ def create_app(config_type=None):
 def initialize_extensions(app):
     db.init_app(app)
     login_manager.init_app(app)
+    migrate.init_app(app, db)
 
     from app.models.User import User
 
