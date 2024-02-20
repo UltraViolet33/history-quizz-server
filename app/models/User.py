@@ -1,9 +1,9 @@
-import re
-from datetime import datetime
+from werkzeug.security import check_password_hash, generate_password_hash
 from flask_login import UserMixin
 from sqlalchemy.sql import func
-from werkzeug.security import check_password_hash, generate_password_hash
+from datetime import datetime
 from .. import db
+import re
 
 
 class User(db.Model, UserMixin):

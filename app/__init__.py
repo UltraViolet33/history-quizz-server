@@ -1,10 +1,10 @@
-from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from os import path
 from flask_login import LoginManager
-import os
-import sqlalchemy as sa
 from flask_migrate import Migrate
+from flask import Flask
+import sqlalchemy as sa
+from os import path
+import os
 
 db = SQLAlchemy()
 login_manager = LoginManager()
@@ -22,14 +22,6 @@ def create_app(config_type=None):
 
     initialize_extensions(app)
     register_blueprints(app)
-
-    engine = sa.create_engine(app.config['SQLALCHEMY_DATABASE_URI'])
-    #inspector = sa.inspect(engine)
-    # if not inspector.has_table("categories"):
-    # with app.app_context():
-    # #     # print("ok")
-    # db.drop_all()
-    # db.create_all()
 
     return app
 

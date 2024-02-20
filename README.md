@@ -1,3 +1,1 @@
-
-
-create instance folder
+# Flask Boilerplate
