@@ -4,7 +4,6 @@ colorama==0.4.6
 coverage==7.2.7
 exceptiongroup==1.1.1
 Flask==2.2.3
-Flask-Login==0.6.2
 Flask-Migrate==4.0.7
 Flask-SQLAlchemy==3.0.3
 Flask-WTF==1.1.1
