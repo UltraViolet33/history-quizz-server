@@ -7,6 +7,15 @@ class Question(db.Model, Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     text = db.Column(db.String(255), nullable=False)
+    right_answer = db.Column(db.Integer, db.ForeignKey(
+        "answers.id"))
 
-    def __init__(self, text):
+
+    def to_dict(self):
+        return {
+            "text": self.text
+        }
+
+    def __init__(self, text, right_answer):
         self.text = text
+        self.right_answer = right_answer
