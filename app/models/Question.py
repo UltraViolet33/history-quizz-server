@@ -17,14 +17,19 @@ class Question(db.Model, Model):
     
     right_answer = db.relationship("Answer", backref="questions")
     categories = db.relationship(
-        "Category", secondary=questions_categories_table, backref="questions"
+        "Category", secondary=questions_categories_table
     )
 
 
     def to_dict(self):
+        categories_id = []
+        for cat in self.categories:
+            categories_id.append(cat.id)
         return {
             "text": self.text,
-            "right_answer": self.right_answer.text if self.right_answer else 'No anwer yet'
+            "right_answer": self.right_answer.text if self.right_answer else 'No anwer yet',
+            "right_answer_id": self.right_answer_id,
+            "categories": categories_id
         }
 
     def __init__(self, text, right_answer_id):
