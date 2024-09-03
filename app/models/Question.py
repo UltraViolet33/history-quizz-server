@@ -8,6 +8,12 @@ questions_categories_table = db.Table(
     db.Column("question_id", db.Integer, db.ForeignKey("questions.id")),
 )
 
+questions_answers_table = db.Table(
+    "questions_answers",
+    db.Column("answer_id", db.Integer, db.ForeignKey("answers.id")),
+    db.Column("question_id", db.Integer, db.ForeignKey("questions.id")),
+)
+
 class Question(db.Model, Model):
     __tablename__ = 'questions'
 
@@ -18,6 +24,10 @@ class Question(db.Model, Model):
     right_answer = db.relationship("Answer", backref="questions")
     categories = db.relationship(
         "Category", secondary=questions_categories_table
+    )
+
+    answers = db.relationship(
+        "Answer", secondary=questions_answers_table
     )
 
 
