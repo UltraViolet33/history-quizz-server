@@ -1,1 +1,1 @@
-# Flask Boilerplate
+# History quizz server
