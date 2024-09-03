@@ -1,0 +1,12 @@
+question:A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?
+answer1:6 juin 1944
+answer2:18 juin 1940
+answer3:8 mai 1945
+answer4:2 septembre 1945
+
+
+question:A quelle date a lieu l'appel du général de Gaulle ?
+answer1:18 juin 1940
+answer2:6 juin 1944
+answer3:8 mai 1945
+answer4:2 septembre 1945

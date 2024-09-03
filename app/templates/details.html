@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ model_name }} - {{item.id}}</title>
+</head>
+<body>
+    <h1>{{ model_name }} - {{item.id}}</h1>
+    <ul>
+        {% for key, value in item.to_dict().items() %}
+        <li>{{ key.capitalize() }} : {{value}}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
