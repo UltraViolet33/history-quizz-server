@@ -42,8 +42,9 @@ def generate_json():
 
     for question in questions:
         question_dict = {
+            "id": question.id,
             "question": question.text,
-            "right_answer": question.right_answer.text,
+            "answer1": question.right_answer.text,
         }
         i = 2
         for answer in question.answers:
