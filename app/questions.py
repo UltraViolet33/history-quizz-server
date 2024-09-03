@@ -53,8 +53,8 @@ def generate_json():
         json_questions.append(question_dict)
         filename = os.path.join(questions_folder, 'questions.json')
 
-        with open(filename, 'w') as f:
-            json.dump(json_questions, f)
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(json_questions, f, ensure_ascii=False, indent=4)
 
 
     return json_questions
