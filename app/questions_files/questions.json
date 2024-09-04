@@ -1,34 +1,116 @@
 [
     {
-        "id": 10,
-        "text": "A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?\n",
-        "answer1": "6 juin 1944\n",
-        "answer2": "18 juin 1940\n",
-        "answer3": "8 mai 1945\n",
-        "answer4": "2 septembre 1945\n"
+        "title": " Seconde Guerre Mondiale\n",
+        "questions": [
+            {
+                "id": 10,
+                "text": "A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?\n",
+                "answers": [
+                    {
+                        "id": 38,
+                        "text": "18 juin 1940\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 40,
+                        "text": "8 mai 1945\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 39,
+                        "text": "2 septembre 1945\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 37,
+                        "text": "6 juin 1944\n",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "text": "A quelle date a lieu l'appel du général de Gaulle ?\n",
+                "answers": [
+                    {
+                        "id": 42,
+                        "text": "6 juin 1944\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 44,
+                        "text": "8 mai 1945\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 43,
+                        "text": "2 septembre 1945\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 41,
+                        "text": "18 juin 1940\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
     },
     {
-        "id": 11,
-        "text": "A quelle date a lieu l'appel du général de Gaulle ?\n",
-        "answer1": "18 juin 1940\n",
-        "answer2": "6 juin 1944\n",
-        "answer3": "8 mai 1945\n",
-        "answer4": "2 septembre 1945\n"
-    },
-    {
-        "id": 12,
-        "text": "Quand a commencé la Première guerre mondiale ?\n",
-        "answer1": " 28 juillet 1914\n",
-        "answer2": "18 juin 1940\n",
-        "answer3": "8 mai 1945\n",
-        "answer4": "2 septembre 1945\n"
-    },
-    {
-        "id": 13,
-        "text": " A quelle date se termine la Première guerre mondiale ?\n",
-        "answer1": "11 novembre 1918\n",
-        "answer2": "2 septembre 1918\n",
-        "answer3": "28 juillet 1919\n",
-        "answer4": "8 main 1918"
+        "title": " Première Guerre Mondiale\n",
+        "questions": [
+            {
+                "id": 12,
+                "text": "Quand a commencé la Première guerre mondiale ?\n",
+                "answers": [
+                    {
+                        "id": 46,
+                        "text": "18 juin 1940\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 48,
+                        "text": "8 mai 1945\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 47,
+                        "text": "2 septembre 1945\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 45,
+                        "text": " 28 juillet 1914\n",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "text": " A quelle date se termine la Première guerre mondiale ?\n",
+                "answers": [
+                    {
+                        "id": 50,
+                        "text": "2 septembre 1918\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 52,
+                        "text": "28 juillet 1919\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 51,
+                        "text": "8 main 1918",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 49,
+                        "text": "11 novembre 1918\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
     }
 ]
