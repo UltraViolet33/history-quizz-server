@@ -1,18 +1,34 @@
 [
     {
-        "id": 20,
-        "text": "A quelle date a lieu le d\u00c3\u00a9barquement alli\u00c3\u00a9 de Normandie pendant la seconde guerre mondiale ?\n",
+        "id": 10,
+        "text": "A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?\n",
         "answer1": "6 juin 1944\n",
         "answer2": "18 juin 1940\n",
         "answer3": "8 mai 1945\n",
         "answer4": "2 septembre 1945\n"
     },
     {
-        "id": 21,
-        "text": "A quelle date a lieu l'appel du g\u00c3\u00a9n\u00c3\u00a9ral de Gaulle ?\n",
+        "id": 11,
+        "text": "A quelle date a lieu l'appel du général de Gaulle ?\n",
         "answer1": "18 juin 1940\n",
         "answer2": "6 juin 1944\n",
         "answer3": "8 mai 1945\n",
-        "answer4": "2 septembre 1945"
+        "answer4": "2 septembre 1945\n"
+    },
+    {
+        "id": 12,
+        "text": "Quand a commencé la Première guerre mondiale ?\n",
+        "answer1": " 28 juillet 1914\n",
+        "answer2": "18 juin 1940\n",
+        "answer3": "8 mai 1945\n",
+        "answer4": "2 septembre 1945\n"
+    },
+    {
+        "id": 13,
+        "text": " A quelle date se termine la Première guerre mondiale ?\n",
+        "answer1": "11 novembre 1918\n",
+        "answer2": "2 septembre 1918\n",
+        "answer3": "28 juillet 1919\n",
+        "answer4": "8 main 1918"
     }
 ]

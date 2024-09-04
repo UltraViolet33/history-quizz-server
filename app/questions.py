@@ -2,6 +2,7 @@ from flask import Blueprint, request, render_template, flash, redirect, url_for
 from werkzeug.utils import secure_filename
 from app.models.Answer import Answer
 from app.models.Question import Question
+from app.models.Quizz import Quizz
 import json
 import os
 
@@ -61,12 +62,17 @@ def generate_json():
 
 
 def import_questions_from_file(filename):
-    with open(filename) as file:
+    with open(filename, encoding='utf-8') as file:
         for line in file:
             print(line.rstrip())
             if line == '\n':
                 continue
             typet, text = line.split(':')
+            if typet == 'quizz':
+                quizz = Quizz.get_by_title(text)
+                if not quizz:
+                    quizz = Quizz(title=text)
+                    quizz.save()
             if typet == 'question':
                 question_text = text
             if typet == 'answer1':
@@ -87,5 +93,6 @@ def import_questions_from_file(filename):
                 question.answers.append(answer2)
                 question.answers.append(answer3)
                 question.answers.append(answer4)
-
                 question.update()
+                quizz.questions.append(question)
+                quizz.update()
