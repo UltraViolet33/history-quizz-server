@@ -1,12 +1,25 @@
+quizz: Seconde Guerre Mondiale
 question:A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?
 answer1:6 juin 1944
 answer2:18 juin 1940
 answer3:8 mai 1945
 answer4:2 septembre 1945
 
-
 question:A quelle date a lieu l'appel du général de Gaulle ?
 answer1:18 juin 1940
 answer2:6 juin 1944
 answer3:8 mai 1945
 answer4:2 septembre 1945
+
+quizz: Première Guerre Mondiale
+question:Quand a commencé la Première guerre mondiale ?
+answer1: 28 juillet 1914
+answer2:18 juin 1940
+answer3:8 mai 1945
+answer4:2 septembre 1945
+
+question: A quelle date se termine la Première guerre mondiale ?
+answer1:11 novembre 1918
+answer2:2 septembre 1918
+answer3:28 juillet 1919
+answer4:8 main 1918
