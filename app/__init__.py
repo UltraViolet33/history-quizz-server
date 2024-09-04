@@ -29,9 +29,10 @@ def initialize_extensions(app):
     from app.models.Question import Question
     from app.models.Answer import Answer
     from app.models.Category import Category
-
-
+    from app.models.Quizz import Quizz
+    
     from .questions import questions
+    
 
     crud.generate_web_routes(Question, questions, 'questions')
     crud.generate_web_routes(Answer)
