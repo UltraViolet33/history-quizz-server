@@ -11,6 +11,18 @@ answer2:6 juin 1944
 answer3:8 mai 1945
 answer4:2 septembre 1945
 
+question:Qui dirigeait le Royaume-Uni pendant la Seconde Guerre mondiale
+answer1:Winston Churchill
+answer2:Charles de Gaulle
+answer3:Fraklin Roosevelt
+answer4:Joseph Staline
+
+question:A quelle date a débuté la Seconde Guerre mondiale ?
+answer1:2 septembre 1939
+answer2:18 juin 1940
+answer3:10 mai 1940
+answer4:1 septembre 1939
+
 quizz: Première Guerre Mondiale
 question:Quand a commencé la Première guerre mondiale ?
 answer1: 28 juillet 1914
@@ -23,3 +35,46 @@ answer1:11 novembre 1918
 answer2:2 septembre 1918
 answer3:28 juillet 1919
 answer4:8 main 1918
+
+quizz: Histoire de l'Allemagne
+question:Qui dirigeait le l'Allemagnee pendant la Seconde Guerre mondiale
+answer1:Adolf Hitler
+answer2:Joseph Goebbels
+answer3:Paul von Hinderbug
+answer4:Otto Bismark
+
+quizz: Histoire des Etats-Unis
+question:En quelle année a lieu la guerre pour l'indépendance des Etats-Unis
+answer1:1776
+answer2:1789
+answer3:1784
+answer4:1760
+
+quizz: Histoire de France
+question:Quelle est la date de la fête nationale française ?
+answer1:14 juillet
+answer2:14 juin 
+answer3:15 août
+answer4:11 novembre
+
+quizz: Les Rois de France
+question:Qui est le dernier roi à avoir régner sur la France ?
+answer1:Louis-Philippe Ier
+answer2:Louis XVI
+answer3:Napoléon Ier
+answer4:Louis XVIII
+
+quizz: La Révolution française
+question:Quand se termine la révolution française ?
+answer1:Lors de la proclamation du Consulat
+answer2:Lors de la mort de Louis XVI
+answer3:Lors de la proclamation de la République
+answer4:Quand Napoléon Bonaparte devient Napoléon Ier empereur des français
+
+
+quizz: Histoire de l'URSS
+question:Qui a fondé l'URSS ?
+answer1:Vladimir Lénine
+answer2:Joseph Staline
+answer3:Léon Trotsky
+answer4:Karl Marx

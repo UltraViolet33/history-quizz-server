@@ -3,53 +3,105 @@
         "title": " Seconde Guerre Mondiale\n",
         "questions": [
             {
-                "id": 10,
-                "text": "A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?\n",
+                "id": 1,
+                "text": "A quelle date a lieu le d\u00e9barquement alli\u00e9 de Normandie pendant la seconde guerre mondiale ?\n",
                 "answers": [
                     {
-                        "id": 38,
+                        "id": 2,
                         "text": "18 juin 1940\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 40,
+                        "id": 4,
                         "text": "8 mai 1945\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 39,
+                        "id": 3,
                         "text": "2 septembre 1945\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 37,
+                        "id": 1,
                         "text": "6 juin 1944\n",
                         "isCorrect": true
                     }
                 ]
             },
             {
-                "id": 11,
-                "text": "A quelle date a lieu l'appel du général de Gaulle ?\n",
+                "id": 2,
+                "text": "A quelle date a lieu l'appel du g\u00e9n\u00e9ral de Gaulle ?\n",
                 "answers": [
                     {
-                        "id": 42,
+                        "id": 6,
                         "text": "6 juin 1944\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 44,
+                        "id": 8,
                         "text": "8 mai 1945\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 43,
+                        "id": 7,
                         "text": "2 septembre 1945\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 41,
+                        "id": 5,
                         "text": "18 juin 1940\n",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Qui dirigeait le Royaume-Uni pendant la Seconde Guerre mondiale\n",
+                "answers": [
+                    {
+                        "id": 10,
+                        "text": "Charles de Gaulle\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 12,
+                        "text": "Fraklin Roosevelt\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 11,
+                        "text": "Joseph Staline\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 9,
+                        "text": "Winston Churchill\n",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "A quelle date a d\u00e9but\u00e9 la Seconde Guerre mondiale ?\n",
+                "answers": [
+                    {
+                        "id": 14,
+                        "text": "18 juin 1940\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 16,
+                        "text": "10 mai 1940\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 15,
+                        "text": "1 septembre 1939\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 13,
+                        "text": "2 septembre 1939\n",
                         "isCorrect": true
                     }
                 ]
@@ -57,56 +109,242 @@
         ]
     },
     {
-        "title": " Première Guerre Mondiale\n",
+        "title": " Premi\u00e8re Guerre Mondiale\n",
         "questions": [
             {
-                "id": 12,
-                "text": "Quand a commencé la Première guerre mondiale ?\n",
+                "id": 5,
+                "text": "Quand a commenc\u00e9 la Premi\u00e8re guerre mondiale ?\n",
                 "answers": [
                     {
-                        "id": 46,
+                        "id": 18,
                         "text": "18 juin 1940\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 48,
+                        "id": 20,
                         "text": "8 mai 1945\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 47,
+                        "id": 19,
                         "text": "2 septembre 1945\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 45,
+                        "id": 17,
                         "text": " 28 juillet 1914\n",
                         "isCorrect": true
                     }
                 ]
             },
             {
-                "id": 13,
-                "text": " A quelle date se termine la Première guerre mondiale ?\n",
+                "id": 6,
+                "text": " A quelle date se termine la Premi\u00e8re guerre mondiale ?\n",
                 "answers": [
                     {
-                        "id": 50,
+                        "id": 22,
                         "text": "2 septembre 1918\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 52,
+                        "id": 24,
                         "text": "28 juillet 1919\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 51,
-                        "text": "8 main 1918",
+                        "id": 23,
+                        "text": "8 main 1918\n",
                         "isCorrect": false
                     },
                     {
-                        "id": 49,
+                        "id": 21,
                         "text": "11 novembre 1918\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": " Histoire de l'Allemagne\n",
+        "questions": [
+            {
+                "id": 7,
+                "text": "Qui dirigeait le l'Allemagnee pendant la Seconde Guerre mondiale\n",
+                "answers": [
+                    {
+                        "id": 26,
+                        "text": "Joseph Goebbels\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 28,
+                        "text": "Paul von Hinderbug\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 27,
+                        "text": "Otto Bismark\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 25,
+                        "text": "Adolf Hitler\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": " Histoire des Etats-Unis\n",
+        "questions": [
+            {
+                "id": 8,
+                "text": "En quelle ann\u00e9e a lieu la guerre pour l'ind\u00e9pendance des Etats-Unis\n",
+                "answers": [
+                    {
+                        "id": 30,
+                        "text": "1789\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 32,
+                        "text": "1784\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 31,
+                        "text": "1760\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 29,
+                        "text": "1776\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": " Histoire de France\n",
+        "questions": [
+            {
+                "id": 9,
+                "text": "Quelle est la date de la f\u00eate nationale fran\u00e7aise ?\n",
+                "answers": [
+                    {
+                        "id": 34,
+                        "text": "14 juin \n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 36,
+                        "text": "15 ao\u00fbt\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 35,
+                        "text": "11 novembre\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 33,
+                        "text": "14 juillet\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": " Les Rois de France\n",
+        "questions": [
+            {
+                "id": 10,
+                "text": "Qui est le dernier roi \u00e0 avoir r\u00e9gner sur la France ?\n",
+                "answers": [
+                    {
+                        "id": 38,
+                        "text": "Louis XVI\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 40,
+                        "text": "Napol\u00e9on Ier\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 39,
+                        "text": "Louis XVIII\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 37,
+                        "text": "Louis-Philippe Ier\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": " La R\u00e9volution fran\u00e7aise\n",
+        "questions": [
+            {
+                "id": 11,
+                "text": "Quand se termine la r\u00e9volution fran\u00e7aise ?\n",
+                "answers": [
+                    {
+                        "id": 42,
+                        "text": "Lors de la mort de Louis XVI\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 44,
+                        "text": "Lors de la proclamation de la R\u00e9publique\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 43,
+                        "text": "Quand Napol\u00e9on Bonaparte devient Napol\u00e9on Ier empereur des fran\u00e7ais\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 41,
+                        "text": "Lors de la proclamation du Consulat\n",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": " Histoire de l'URSS\n",
+        "questions": [
+            {
+                "id": 12,
+                "text": "Qui a fond\u00e9 l'URSS ?\n",
+                "answers": [
+                    {
+                        "id": 46,
+                        "text": "Joseph Staline\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 48,
+                        "text": "L\u00e9on Trotsky\n",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 47,
+                        "text": "Karl Marx",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 45,
+                        "text": "Vladimir L\u00e9nine\n",
                         "isCorrect": true
                     }
                 ]
