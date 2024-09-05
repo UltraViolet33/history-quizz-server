@@ -1,3 +1,4 @@
+category: Histoire
 quizz: Seconde Guerre Mondiale
 question:A quelle date a lieu le débarquement allié de Normandie pendant la seconde guerre mondiale ?
 answer1:6 juin 1944
@@ -71,10 +72,18 @@ answer2:Lors de la mort de Louis XVI
 answer3:Lors de la proclamation de la République
 answer4:Quand Napoléon Bonaparte devient Napoléon Ier empereur des français
 
-
 quizz: Histoire de l'URSS
 question:Qui a fondé l'URSS ?
 answer1:Vladimir Lénine
 answer2:Joseph Staline
 answer3:Léon Trotsky
 answer4:Karl Marx
+
+
+category:Littérature
+quizz:Les écrivains français
+question:Qui a écrit les Misérables ?
+answer1:Victor Hugo
+answer2:Emile Zola
+answer3:Honoré de Balzac
+answer4:Alexandre Dumas
