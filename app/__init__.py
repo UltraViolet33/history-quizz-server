@@ -30,12 +30,14 @@ def initialize_extensions(app):
     from app.models.Answer import Answer
     from app.models.Category import Category
     from app.models.Quizz import Quizz
-    
-    from .questions import questions
-    
 
-    crud.generate_web_routes(Question, questions, 'questions')
+    from .categories import categories
+    from .questions import questions
+    from .quizz import quizz
+
+    app.register_blueprint(categories, url_prefix=f"/categories")
+    app.register_blueprint(quizz, url_prefix=f"/quizz")
+
+    crud.generate_web_routes(Question, questions, "questions")
     crud.generate_web_routes(Answer)
     crud.generate_web_routes(Category)
-
-

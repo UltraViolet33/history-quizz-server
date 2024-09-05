@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block title %}
+  quizz list
+{% endblock %} {% block content %}
+  <div class="container">
+    <div class="row my-5 justify-content-center">
+      <h1 class="text-center">All quizz</h1>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>title</th>
+            <th>edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for quizz in quizzes %}
+            <tr>
+              <td>
+                <a href="/quizz/edit/{{ quizz.id }}">{{ quizz.title }}</a>
+              </td>
+              <td>
+                <a href="/quizz/edit/{{ quizz.id }}">Edit</a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}
